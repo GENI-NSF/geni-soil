@@ -16,6 +16,7 @@ def setup():
     config.install("flask.app_port", 8001, "Port to bind the Flask RPC to (standalone server).")
     config.install("flask.debug", True, "Write logging messages for the Flask RPC server.")
     config.install("flask.fcgi", False, "Use FCGI server instead of the development server.")
+    config.install('chrm.db_url', 'postgresql://portal:portal@localhost/portal')
 
     # create and register the RPC server
     flaskserver = FlaskServer()
