@@ -48,10 +48,14 @@ class FlaskServer(object):
         app_port = config.get("flask.app_port")
         fcgi_port = config.get("flask.fcgi_port")
 
-        if cFCGI:
+        if cFCGI and fcgi_port:
             logger.info("registering fcgi server at %s:%i", host, fcgi_port)
             from flup.server.fcgi import WSGIServer
             WSGIServer(self._app, bindAddress=(host, fcgi_port)).run()
+        elif cFCGI:
+            logger.info("registering fcgi behind apache (with no port)")
+            from flup.server.fcgi import WSGIServer
+            WSGIServer(self._app).run()
         else:
             logger.info("registering app server at %s:%i", host, app_port)
             self._app.run(host=host, port=app_port, ssl_context='adhoc', debug=debug)
