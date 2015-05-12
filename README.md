@@ -12,6 +12,22 @@ has been customized for the
 [GENI Clearinghouse](https://github.com/GENI-NSF/geni-ch) in a few
 small ways.
 
+The original README file contained the [Purpose](#purpose),
+[Documentation](#documentation), and
+[Logo](#logo) sections which are reproduced in their entirety below.
+
+# Branches
+
+The original work on AMsoil was done on the "development"
+branch. This branch has been renamed to "ofelia" to avoid confusion
+with the "develop" branch.
+
+Development of geni-soil follows Vincent Driessen's
+[git branching model](http://nvie.com/posts/a-successful-git-branching-model/).
+If you plan to contribute to this repository please branch off the
+"develop" branch, which is the default branch. The "master" branch is
+reserved for releases.
+
 # Purpose
 
 AMsoil is a light-weight framework for creating Aggregate Managers (AM) for test beds.
