@@ -1,3 +1,17 @@
+# History
+
+geni-soil was originally available as AMsoil at
+https://github.com/fp7-ofelia/AMsoil.git. That repository was removed
+due to copyright issues with AMS Oil (http://www.amsoil.com). A
+descendent of that original repository is available at
+https://github.com/EICT/eiSoil but that repository has a new commit
+history.
+
+This repository is a descendent of the original AMsoil repository. It
+has been customized for the
+[GENI Clearinghouse](https://github.com/GENI-NSF/geni-ch) in a few
+small ways.
+
 # Purpose
 
 AMsoil is a light-weight framework for creating Aggregate Managers (AM) for test beds.
