@@ -14,4 +14,4 @@ Please see the [Wiki](https://github.com/fp7-ofelia/AMsoil/wiki) for more inform
 
 # Logo
 
-![GCF Setup](https://raw.github.com/fp7-ofelia/AMsoil/development/doc/img/logo.jpg)
+![GCF Setup](doc/img/logo.jpg)
