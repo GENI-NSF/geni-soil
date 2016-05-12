@@ -1,3 +1,12 @@
+# Obsolete and Deprecated
+
+This package is obsolete and deprecated as of May 1, 2016.
+It is no longer maintained.
+
+The [GENI Clearinghouse](https://github.com/GENI-NSF/geni-ch) no longer
+uses or depends on this package as of
+[version 2.11](https://github.com/GENI-NSF/geni-ch/releases/tag/v2.11).
+
 # History
 
 geni-soil was originally available as AMsoil at
